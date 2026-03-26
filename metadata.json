@@ -1,0 +1,8 @@
+{
+  "name": "Educare Institute Management",
+  "description": "A complete mobile-first coaching management PWA for Educare Institute (Classes 6-10) with Student, Teacher, and Admin panels.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

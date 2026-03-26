@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ec4899; /* Pink/Red */
+  --color-secondary: #111827; /* Dark Black */
+  --color-accent: #10b981; /* Green */
+  --color-accent-blue: #3b82f6; /* Blue */
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg rounded-2xl;
+}
+
+.bottom-nav-item {
+  @apply flex flex-col items-center justify-center text-gray-400 transition-colors duration-200;
+}
+
+.bottom-nav-item.active {
+  @apply text-primary;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Educare Institute",
+  "short_name": "Educare",
+  "description": "Educare Institute Management System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ec4899",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/educare/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/seed/educare/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
